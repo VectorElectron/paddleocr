@@ -46,7 +46,7 @@ pip install -e .
 After pip installation, the package is located at `site-packages/ppocr_vectron/`.
 
 ### Model Files
-模型和字典文件在release中下载，放至model文件夹即可。所有模型文件已发布在 tag 为 `model` 的 release 中。
+All model files are published in the release with tag `model`. Download the files and place them in the `model/` directory.
 
 | File | Description | Size | Download |
 |------|-------------|------|----------|
