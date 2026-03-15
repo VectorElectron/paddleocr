@@ -46,16 +46,19 @@ pip install -e .
 After pip installation, the package is located at `site-packages/ppocr_vectron/`.
 
 ### Model Files
-After installation, you need to download the model and dictionary files from the [release page](https://github.com/VectorElectron/release/releases) and place them in the `ppocr_vectron/model/` directory.
+模型和字典文件在release中下载，放至model文件夹即可。所有模型文件已发布在 tag 为 `model` 的 release 中。
 
-Required files:
-- `ppocrv5_dict.txt`
-- `ppocrv5_det.onnx`
-- `ppocrv5_rec.onnx`
-- `resize_trans.onnx`
-- `bbox_extract.onnx`
-- `line_extract.onnx`
-- `ctc_decode.onnx`
+| File | Description | Size | Download |
+|------|-------------|------|----------|
+| `ppocrv5_dict.txt` | Character dictionary for text recognition | - | [Download](https://github.com/VectorElectron/paddleocr/releases/download/model/ppocrv5_dict.txt) |
+| `ppocrv5_det.onnx` | Text detection model | - | [Download](https://github.com/VectorElectron/paddleocr/releases/download/model/ppocrv5_det.onnx) |
+| `ppocrv5_rec.onnx` | Text recognition model | - | [Download](https://github.com/VectorElectron/paddleocr/releases/download/model/ppocrv5_rec.onnx) |
+| `resize_trans.onnx` | Image resizing and transformation | - | [Download](https://github.com/VectorElectron/paddleocr/releases/download/model/resize_trans.onnx) |
+| `bbox_extract.onnx` | Bounding box extraction from detected regions | - | [Download](https://github.com/VectorElectron/paddleocr/releases/download/model/bbox_extract.onnx) |
+| `line_extract.onnx` | Text line extraction from bounding boxes | - | [Download](https://github.com/VectorElectron/paddleocr/releases/download/model/line_extract.onnx) |
+| `ctc_decode.onnx` | CTC decoder for converting model output to text | - | [Download](https://github.com/VectorElectron/paddleocr/releases/download/model/ctc_decode.onnx) |
+| `testimg.png` | Test image for demonstration purposes | - | [Download](https://github.com/VectorElectron/paddleocr/releases/download/model/testimg.png) |
+| `index.html` | Web interface for browser-based OCR | - | [Download](https://github.com/VectorElectron/paddleocr/releases/download/model/index.html) |
 
 ## Python Usage
 
