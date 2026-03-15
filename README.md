@@ -157,7 +157,7 @@ Try the complete mobile-compatible pure frontend OCR experience at:
 
 For the complete implementation with image processing, parallel execution, and UI components, please refer to the full code in `model/index-scan.html`.
 
-![Image](https://github.com/user-attachments/assets/4cd6a798-1df8-470a-a6be-2a065808fc33)
+![Image](https://github.com/user-attachments/assets/8a6ab9d7-81e3-4685-a5fc-51b1c616587a)
 
 ## License
 BSD 3-Clause License
